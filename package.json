@@ -1,20 +1,14 @@
 {
   "private": true,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start"
-  },
   "dependencies": {
-    "apollo-server-micro": "2.13.1",
-    "dotenv": "^16.0.1",
-    "dotenv-cli": "^5.1.0",
-    "graphql": "15.0.0",
-    "ley": "^0.7.1",
-    "next": "latest",
-    "postgres": "^3.2.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "apollo-server": "^3.10.0",
+    "graphql": "^16.5.0"
+  },
+  "name": "grpahql-frontend-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/ValeriaServetnyk/grpahql-frontend-backend.git",
+  "author": "ValeriaServetnyk <102434294+ValeriaServetnyk@users.noreply.github.com>",
+  "license": "MIT"
 }
